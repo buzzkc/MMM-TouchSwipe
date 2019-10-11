@@ -1,0 +1,53 @@
+/*
+ *
+ * MMM-TouchSwipe
+ *
+ * Buzz Kc
+ * MIT Licensed.
+ *
+ * Custom here your css module
+ *
+ Add to MM custom.css for 3.5" touch screen to remove padding/borders
+  body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+
+.region.fullscreen {
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ right: 0px;
+ bottom: 0px;
+ pointer-events: none;
+}
+  */
+
+.touchSwipeContainer {
+    width: 100%;
+    height: 120px;
+    background-color: #0384fc;
+}
+
+.touchSwipeSurface{
+    float: right;
+    width:80%;
+    height: 120px;
+}
+
+.touchSwipeHelp {
+    color: #000;
+    text-align: center;
+}
+
+.touchSwipeHome {
+    width: 150px;
+    height: 120px;
+    background-color: #0384fc;
+    border: none;
+    float: left;
+    background-image: url('images/home.png');
+    background-position: center;
+
+}

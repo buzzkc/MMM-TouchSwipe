@@ -1,0 +1,12 @@
+{
+  "name": "MMM-TouchSwipe",
+  "version": "1.0.0",
+  "description": "MagicMirror module to detect touch swipes on a touch screen monitor.",
+  "main": "MMM-TouchSwipe.js",
+  "author": "Buzz Kc",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

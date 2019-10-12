@@ -1,14 +1,13 @@
 # MMM-TouchSwipe
 This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror/).
 
-A MagicMirror module for touch screen swipe events to change pages in MMM-Pages. Displays as an area to swipe on to capture the events.
+A MagicMirror module for touch screen events to change pages in MMM-Pages. Originally this was coded to capture swipe events, but found it didn't work on the waveshare 3.5" touch screen I designed it for.
 
 Home icon returns user to first page.
 
 ![](./images/MMM-TouchSwipe.png)
 
-
-## Installation
+sws
 ### Setup the MagicMirror module
 ~MagicMirror/modules
 
@@ -25,7 +24,7 @@ var config = {
               module: "MMM-TouchSwipe",
               position: "bottom_bar",
               config: {
-                    helpText: "Touch or Swipe Here",
+      
               }
         },
     ]
@@ -36,11 +35,10 @@ var config = {
 
 | Option            | Description
 |-----------------  |-----------
-| `helpText`        | *Optional* Help text to be displayed in touch area.
 |                   |
 
 ## Future ideas
-* Add swipe indicators
+* Add swipe feature indicators
 
 ## Thanks To
 * MichMich for developing [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)

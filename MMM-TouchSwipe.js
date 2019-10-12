@@ -97,8 +97,8 @@ Module.register("MMM-TouchSwipe", {
 		startY,
 		distX,
 		distY,
-		threshold = 90, //required min distance traveled to be considered swipe
-		restraint = 80, // maximum distance allowed at the same time in perpendicular direction
+		threshold = 50, //required min distance traveled to be considered swipe
+		restraint = 40, // maximum distance allowed at the same time in perpendicular direction
 		allowedTime = 300, // maximum time allowed to travel that distance
 		elapsedTime,
 		startTime,

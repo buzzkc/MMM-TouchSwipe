@@ -30,26 +30,40 @@
     background-color: #0384fc;
 }
 
-.touchSwipeSurface{
-    float: right;
-    width:80%;
-    height: 50px;
-}
-
-.touchSwipeHelp {
-    color: #000;
-    text-align: center;
-}
-
 .touchSwipeHome {
     width: 50px;
     height: 50px;
     background-color: #0384fc;
     border: none;
-    float: left;
     background-image: url('images/home.png');
     background-position: center;
 	background-repeat: no-repeat;
 	background-size: 50px 50px;
+	padding: 0px 50px 0px;
+
+}
+
+.touchSwipePrev {
+    width: 50px;
+    height: 50px;
+    background-color: #0384fc;
+    border: none;
+    background-image: url('images/prev.png');
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	padding: 0px 50px 0px;
+}
+
+.touchSwipeNext {
+    width: 50px;
+    height: 50px;
+    background-color: #0384fc;
+    border: none;
+    background-image: url('images/next.png');
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: 40px 40px;
+	padding: 0px 50px 0px;
 
 }

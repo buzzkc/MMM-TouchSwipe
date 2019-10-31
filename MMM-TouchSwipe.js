@@ -127,11 +127,6 @@ Module.register("MMM-TouchSwipe", {
 	},
 
 	notificationReceived: function(notification, payload, sender) {
-		if (sender) {
-			console.log(this.name + " received a module notification: " + notification + " from sender: " + sender.name);
-		} else {
-			console.log(this.name + " received a system notification: " + notification);
-		}
 		if (notification === "MMM-Screendimmer_CURRENT_VALUE") {
 			this.config.dimmerOverrideValue = payload;
 		}

@@ -67,3 +67,49 @@
 	padding: 0px 50px 0px;
 
 }
+
+.touchSwipeDimAutoContainer {
+  float: left;
+}
+
+.touchSwipeDimNavContainer {
+  float: right;
+}
+
+.dimNumber {
+  background: transparent;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  width: 60px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.touchSwipeDimAutoContainer{
+  border-right: 2px solid #ccc;
+}
+
+.touchSwipeDimNavContainer{
+  border-left: 2px solid #ccc;
+}
+
+.dimButton{
+  background-color: #0384fc;
+  border: none;
+  padding: 0px 50px 0px;
+  font-size: 22px;
+  color: white;
+}
+
+.touchAutoDim {
+    background-color: #0384fc;
+    border: none;
+    padding: 0px 50px 0px;
+    font-size: 22px;
+    color: white;
+}
